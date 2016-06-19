@@ -1,0 +1,173 @@
+@import url(http://fonts.googleapis.com/css?family=Vibur);
+
+/*Haut Page*/ 
+.togepi {
+
+	float:left;
+	width:200px;
+	height:220px;
+}
+.pikachu
+{
+	width:300px;
+	height:175px;
+	float:right;
+}
+
+header 
+{
+	text-align:center;
+	
+}
+
+
+/*Menu*/
+@media only screen and (max-width : 1500px)
+{
+#menu {
+	float:left;
+	width:70%;
+	margin-left: 2%; 
+	font-family: Arial;
+	text-decoration: none;
+	float:left;
+	color: #fff;
+}
+
+#menu li {
+	display: inline;
+	width: 20%;
+	text-align:center;
+	
+
+
+}
+#menu a {
+		
+	font-size:90%;
+	text-align:left;	
+	
+}
+
+#menu img {
+
+	position:relative;
+	right:20%;
+	top:2%;
+	width : 20%;
+	height : 20%;
+	background-attachment : fixed;
+}
+
+a {
+color : #656667;
+text-decoration:none;
+font-size : 90%;
+}
+
+#t {
+
+float:left;
+padding : 1%;
+background-color: #FEE564;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius : 10px
+}
+
+#s {
+float:left;
+padding: 1%;
+background-color: #F74B4B;
+
+
+}
+#i {
+float:left;
+padding: 1%;
+background-color: #CCFF99;
+
+}
+
+#c {
+float:left;
+padding: 1%;
+background-color: #98C9FA;
+border-top-right-radius: 10px;
+border-bottom-right-radius : 10px
+}
+
+#t:hover{
+background-color: #EDAC3C;
+padding-bottom:1%;
+}
+
+#s:hover{
+background-color: #D92F2F;
+padding-bottom:1%;
+}
+#i:hover{
+background-color:#89E18C;
+padding-bottom:1%;
+}
+#c:hover{
+background-color: #7395F2;
+padding-bottom:1%;
+}
+}
+
+
+
+
+
+.footer-princ {
+
+    width: 100%;
+	bottom:0;
+	display:block;
+	margin-top:10%;
+	background-color:rgba(158, 158, 158, 0.5);	
+	
+}
+
+.info-block {
+	position:relative;
+	width:20%;
+	margin-left:13%;
+	display:inline-block;
+	vertical-align:middle;
+	font-family: Fonte-text;
+	
+}
+
+.info-block .privacy{
+
+	float:left;
+	margin: 0 0 0 -25%;
+	
+}
+.info-block h1{
+	
+	font-family: 'Vibur', cursive;
+
+	
+}
+
+.info-block p{
+	
+	font-size:30px;
+	line-height:5px;	
+}
+
+.txt {
+	position : relative;
+	margin-left : 31%
+}
+
+.lien {
+position :relative;
+margin-left : 42%
+}
+
+.info-block img {
+	width : 15%;
+}

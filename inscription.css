@@ -1,0 +1,306 @@
+@import url(http://fonts.googleapis.com/css?family=Vibur);
+@font-face {
+    font-family: "Fonte-titre";
+    src: url('../font/Outland.otf');
+}
+@font-face {
+    font-family: "Fonte-text";
+    src: url('../font/latian.ttf');
+}
+/*Haut Page*/ 
+.togepi {
+
+	float:left;
+	width:200px;
+	height:220px;
+}
+.pikachu
+{
+	width:300px;
+	height:175px;
+	float:right;
+}
+
+header 
+{
+	text-align:center;
+	
+}
+
+
+/*Menu*/
+
+#menu {
+	float:left;
+	width:80%;
+
+
+}
+#menu li {
+	display: inline;
+	width:18%;
+	text-align:center;
+	
+
+
+}
+#menu a {
+	display:inline-block;	
+	font-size:20px;
+	text-align:left;	
+	
+}
+
+#menu img {
+
+	position:relative;
+	right:25px;
+	top:5px;
+
+	
+}
+
+a {
+color : #656667;
+text-decoration:none;
+font-size : 20px;
+}
+#t {
+font-family: Arial;
+font-size:11px;
+text-decoration: none;
+float:left;
+padding: 10px;
+background-color: #FEE564;
+color: #fff;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius : 10px
+}
+#s {
+font-family: Arial;
+font-size:11px;
+text-decoration: none;
+float:left;
+padding: 10px;
+background-color: #F74B4B;
+color: #fff;
+
+}
+#i {
+font-family: Arial;
+font-size:11px;
+text-decoration: none;
+float:left;
+padding: 10px;
+background-color: #CCFF99;
+color: #fff;
+}
+
+#q {
+font-family: Arial;
+font-size:11px;
+text-decoration: none;
+float:left;
+padding: 10px;
+background-color: pink;
+color: #fff;
+}
+
+#c {
+font-family: Arial;
+font-size:11px;
+text-decoration: none;
+float:left;
+padding: 10px;
+background-color: #98C9FA;
+color: #fff;
+border-top-right-radius: 10px;
+border-bottom-right-radius : 10px
+}
+#t:hover{
+background-color: #EDAC3C;
+margin-top:-2px;
+padding-bottom:12px;
+}
+#s:hover{
+background-color: #D92F2F;
+margin-top:-2px;
+padding-bottom:12px;
+}
+#i:hover{
+background-color:#89E18C;
+margin-top:-2px;
+padding-bottom:12px;
+}
+
+#q:hover{
+background-color:#FD6C9E;
+margin-top:-2px;
+padding-bottom:12px;
+}
+
+#c:hover{
+background-color: #7395F2;
+margin-top:-2px;
+padding-bottom:12px;
+}
+
+/*Inscription*/
+
+h1
+{
+	color:black;
+	text-transform : uppercase;
+	font-variant: small-caps;
+	font-family:cursive;
+	text-align:center;
+	margin-top:10%;
+	font-size:35px;
+}
+
+em
+{
+
+	color:rgb(110,255,64);
+	font-style: normal;
+	font-family:cursive;
+	
+}
+
+.inputbloc
+{
+  width:230px;
+  height:35px;
+  border-radius:1px;
+  border-top:rgb(110,255,64) 1px solid;
+  border-bottom:rgb(110,255,64) 4px solid;
+  border-right:rgb(110,255,64) 2px solid;
+  border-left:rgb(110,255,64) 2px solid;
+  box-sizing:border-box;
+  
+  
+  outline:none;
+  font-size:12pt;
+  font-family:'Open Sans', sans-serif;
+  
+}
+
+
+.bloc1
+{
+	position:relative;
+	top:20px;  
+	height:70%;
+	width:450px;
+	margin-left:24%;  
+	margin-right:auto;
+	border-radius:3px;
+	font-family:cursive;
+	color:black;
+	text-align:center;
+	font-size:16pt;
+
+}
+.bloc1 em
+{
+	color:rgb(110,255,64);
+	font-style: normal;
+
+}
+
+
+#bloc2
+{	font-family:Cursive;
+	color:black;
+   height:70%;
+	margin-left:515px;
+	margin-right:auto;
+	top:15px;
+	position:absolute;
+	width:100%;
+	text-align:center;
+	
+	
+
+}
+
+#bloc2 em
+{
+	color:rgb(110,255,64);
+	font-style: normal;
+}
+
+.boutton{
+  height:40px;
+  width:220px;
+  border-radius:3px;
+  border:rgba(110,255,64,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  background:rgb(110,255,64);
+  color:#FFF;
+  font-weight:bold;
+  font-size: 12pt;
+  transition:background .4s;
+  cursor:pointer;
+  outline:none;
+}
+
+.boutton:hover{
+  background:rgb(110,255,32);
+  
+}
+
+
+/* Footer */
+
+
+.footer-princ {
+
+    width: 100%;
+	bottom:0;
+	display:block;
+	margin-top:10%;
+	background-color:rgba(158, 158, 158, 0.5);	
+	
+}
+
+.info-block {
+	position:relative;
+	width:20%;
+	margin-left:13%;
+	display:inline-block;
+	vertical-align:middle;
+	font-family: Fonte-text;
+	
+}
+
+
+
+.info-block .privacy{
+
+	float:left;
+	margin: 0 0 0 -25%;
+	
+}
+.info-block h2{
+	
+	font-family: 'Vibur', cursive;
+	font-size:35px;
+
+
+	
+}
+
+.info-block p{
+	
+	font-size:30px;
+	line-height:5px;
+
+	
+}
+
+.info-block img {
+	width : 15%;
+}

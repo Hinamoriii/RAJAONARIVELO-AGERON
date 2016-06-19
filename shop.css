@@ -1,0 +1,268 @@
+@import url(http://fonts.googleapis.com/css?family=Vibur);
+
+/*Haut Page*/ 
+.togepi {
+
+	float:left;
+	width:200px;
+	height:220px;
+}
+.pikachu
+{
+	width:300px;
+	height:175px;
+	float:right;
+}
+
+header 
+{
+	text-align:center;
+	
+}
+
+
+/*Menu*/
+@media only screen and (max-width : 1500px)
+{
+#menu {
+	float:left;
+	width:70%;
+	margin-left: 2%; 
+	font-family: Arial;
+	text-decoration: none;
+	float:left;
+	color: #fff;
+}
+
+#menu li {
+	display: inline;
+	width: 20%;
+	text-align:center;
+	
+
+
+}
+#menu a {
+		
+	font-size:90%;
+	text-align:left;	
+	
+}
+
+#menu img {
+
+	position:relative;
+	right:20%;
+	top:2%;
+	width : 20%;
+	height : 20%;
+	background-attachment : fixed;
+}
+
+a {
+color : #656667;
+text-decoration:none;
+font-size : 90%;
+}
+
+#t {
+
+float:left;
+padding : 1%;
+background-color: #FEE564;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius : 10px
+}
+
+#s {
+float:left;
+padding: 1%;
+background-color: #F74B4B;
+
+
+}
+#i {
+float:left;
+padding: 1%;
+background-color: #CCFF99;
+
+}
+
+#c {
+float:left;
+padding: 1%;
+background-color: #98C9FA;
+border-top-right-radius: 10px;
+border-bottom-right-radius : 10px
+}
+
+#t:hover{
+background-color: #EDAC3C;
+padding-bottom:1%;
+}
+
+#s:hover{
+background-color: #D92F2F;
+padding-bottom:1%;
+}
+#i:hover{
+background-color:#89E18C;
+padding-bottom:1%;
+}
+#c:hover{
+background-color: #7395F2;
+padding-bottom:1%;
+}
+}
+/*barre de recherche*/
+@media only screen and (max-width : 1500px)
+{
+.Recherche {
+	float : left;
+	background:#B5E655;
+	width:20%;
+	height:90%;
+	margin : 6% 60% 9% 0;
+ 	opacity:0.8; 
+	box-shadow:  rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	border-radius:10px;
+	text-align:center;
+}
+}
+
+.Recherche .yo {
+	font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 80%;
+  padding:8%;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+	
+}
+	
+.Recherche i{
+	position:absolute;
+	margin:1.5% 0 0 -2%;
+}
+
+.Recherche li {
+font-family: "Roboto", sans-serif;
+text-align : left;
+font-style : normal;
+line-height : 50%;
+padding-right : 20%;
+margin-left : 15%;
+font-size : 19px;
+margin-top : 10%
+}
+
+.Recherche ul {
+list-style : none;
+margin-bottom : 30%;
+}
+
+
+.Recherche h1{
+	font-size:30px;
+	font-family: 'Vibur', cursive;
+	font-size:45px;
+	color:black;
+	margin-bottom : 3%
+	
+}
+
+.Recherche .ball{
+height :20%;
+width : 10%;
+margin-bottom : -20%;
+margin-right : 110%;
+
+}
+
+.Recherche .potion{
+height :10%;
+width : 10%;
+margin-bottom : -20%;
+margin-right : 110%;
+
+}
+
+.Recherche .canne{
+
+width : 18%;
+margin-bottom : -20%;
+margin-right : 100%;
+margin-left : -5%
+
+}
+
+.Recherche .feu{
+
+width : 12%;
+margin-bottom : -20%;
+margin-right : 100%;
+margin-left : -1%
+
+}
+
+.Recherche .proteine{
+
+width : 10%;
+margin-bottom : -20%;
+margin-right : 100%;
+margin-left : 1%
+
+}
+
+.Recherche .chariot {
+width : 70%
+
+}
+
+
+.Shopping {
+position : relative;
+width: 70%;
+height: 78%;
+margin : -45.5% 0 0 23%;
+
+}
+
+@media only screen and (max-width : 1500px)
+{
+.partie img {
+width : 38%;
+margin-left : 28%
+}	
+
+
+.case1 {
+	float : left;
+width : 25%;
+margin-left : 22%;
+margin-top : -45%;	
+}
+
+.case2 {
+	float : left;
+	width : 24%;
+	margin-top : -44.5%;
+	margin-left : 46%		
+}
+
+.case3 {
+	
+float : left;
+	margin-top : -44.5%;
+	width : 24%;
+	margin-left : 72%
+}
+
+.partie h2 {
+	text-align : center;
+	font-size : 16px
+}
+}
+
